@@ -14,7 +14,7 @@
         
         
         
-        "watch:sassprefixer": "parallelshell \"sass --watch sass:css\" \"onchange -d 100 css/style.css -- autoprefixer-cli -o css/style.prefixed.css css/style.css\" ",
+        "watch:sassprefixer": "parallelshell \"onchange sass/style.scss -- sass --update sass:css\" \"onchange sass/style.scss -- autoprefixer-cli css/style.css\" ",
         
         
         
